@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 20px;
+    }
+
+    header {
+        background-image: url(images/Group\ 34055.svg);
+        background-size: cover;
+        height: 100px;
+        width: 100%;
+        background-position: center !important;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    ul li a {
+        margin: 10px 0px;
+        padding: 20px;
+        color: #ffff;
+    }
+
+    .btn button {
+        padding: 15px;
+        width: 130px;
+        background-color: #4BC4CF;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    nav ul li a:hover {
+        color: black;
+    }
+
+
+    .content p{
+        font-size: 20px;
+        color: #949494;
+
+font-style: normal;
+font-weight: 400;
+
+line-height: 36px;
+
+    }
+    .content h2{
+        font-size:40px ;
+    }
+    .right-ttt{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 850px) {
+
+        nav ul li{
+            display: none;
+        }
+    }
+
+
+</style>
+
+<body>
+
+    <header>
+        <div class="wraper">
+            <nav>
+                <div class="logo">
+                    <img src="https://acounta.com/wp-content/uploads/2023/07/logo-custom.svg" alt="" title="" />
+
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">Book a demo</a>
+                    </li>
+                    <li>
+                        <a href="">Help and Support</a>
+                    </li>
+                    <div class="btn">
+                        <button>Contact</button>
+
+                    </div>
+                </ul>
+            </nav>
+           
+        </div>
+        
+    </header>
+
+    <section class="about">
+        <div class="right-ttt">
+            
+        <div class="content">
+            <h2>About Acounta</h2>
+            <p>Acounta is on the frontier of redefining efficiencies using software in <br>the Accounting industry.
+                Acounta specialises in providing CPA practice management software that helps accounting
+                professionals streamline their workflow, manage clients, and increase productivity. Our software
+                is designed to help CPAs and accounting firms of all sizes operate more efficiently, improve
+                client services, and grow their businesses.</p>
+        </div>
+        <div class="img-right">
+            <img src="https://acounta.com/wp-content/uploads/2023/07/about-img-banner.svg" alt="">
+        </div>
+        
+    </div>
+    </section>
+
+</body>
+
+</html>
